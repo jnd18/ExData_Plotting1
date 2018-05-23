@@ -1,3 +1,11 @@
+## Notes on my work
+
+In addition to the four scripts and four plots, I have a fifth script for loading and processing the data. Each of the four plotting scripts sources this script to get the data. This fifth script will not run unless you download the data from below, unzip it, and put it in the same directory as all the scripts. I did that when working on the project, but I could not push my repo with a file that large in it, so I had to remove it. 
+
+(Incidentally, removing the large file was non-trivial. I couldn't just delete the file or add it to .gitignore, since the large file was still in the history. Rather than handle the issue with git finesse, I ended up just copying my work to another directory, deleting my local clone of the repo, re-cloning the repo, and then pasting my work back into the repo. Now I could add the file to .gitignore, and since it wasn't in the history, the I could push the repo. This erased my commits, however.)
+
+The original readme continues below.
+
 ## Introduction
 
 This assignment uses data from
